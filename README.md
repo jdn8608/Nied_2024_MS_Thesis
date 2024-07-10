@@ -24,3 +24,5 @@ Install secondary conda environment for plotting maps:
 ```bash
 conda create --name <env> --file requirements_mapping.txt
 ```
+## Contact
+For any questions or concerns regarding this repository, please contact me via email at jdnied2@illinois.edu
