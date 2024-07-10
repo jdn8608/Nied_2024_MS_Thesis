@@ -14,3 +14,13 @@ The following is the layout of the code base
 ├── requirements_mapping.txt    # Dependencies for mapping plots
 └── README.md
 ```  
+## Install Dependencies:
+Install main conda environment: 
+```bash
+conda create --name <env> --file requirements.txt
+```
+
+Install secondary conda environment for plotting maps: 
+```bash
+conda create --name <env> --file requirements_mapping.txt
+```
