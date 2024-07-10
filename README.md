@@ -6,11 +6,11 @@ We aim to compare performative enhancements of CNNs that utilize texture over sp
 
 ## Structure  
 The following is the layout of the code base
-.
+```bash
 ├── notebooks                   # All code used within the thesis to create models or plots
 ├── MOD35 datasets              # Spreadsheets to retrieve the MODIS and MOD35 for training/testing data 
 ├── RCCM datasets               # RCCM-nadir files for training/testing data
 ├── requirements.txt            # Dependencies for all notebooks (besides mapping)
 ├── requirements_mapping.txt    # Dependencies for mapping plots
 └── README.md
-
+```  
