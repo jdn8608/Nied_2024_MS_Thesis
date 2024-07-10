@@ -4,6 +4,15 @@ This repository contains the code and data for my thesis on the application of m
 
 We aim to compare performative enhancements of CNNs that utilize texture over spectral-only ML models. Furthermore, we focus on the aspects and neccessary requirements to use these methods globally and operationally.  
 
+## Repository Disclaimer
+There are a few things that needs to be fixed before this code can be used "off the shelf". Future updates will ammend these issues. When this is done, this comment & section will be removed.  
+
+Notebooks: The code provded is not "ready to use" yet. It is currently hardcoded to compute nodes and architecture used by myself. 
+
+Datasets: We provide the files for the RCCM cloud masks. We will work on adding either files or the retrieval scripts we utilized to generate the MOD35 dataset.  
+
+Not within the Repo: In the thesis we describe a labeling tool to perform "quality-control" on MODIS data. This is currently not provided but will be added in the future once the above is ammended.  
+
 ## Structure  
 The following is the layout of the code base
 ```bash
